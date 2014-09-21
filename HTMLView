@@ -1,0 +1,21 @@
+<?php
+
+class HTMLView {
+	
+	public function echoHTML($body, $time) {
+		
+		echo "
+			<!DOCTYPE html>
+			<html lang='sv'>
+			<head>
+				<title>Lab2Login</title>
+				<meta charset='utf-8' />
+			</head>
+			<body>
+				<h1>Laborationskod ib222dp</h1>
+				$body
+				$time
+			</body>
+			</html>";	
+	}
+}
